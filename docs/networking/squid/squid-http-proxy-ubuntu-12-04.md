@@ -92,6 +92,8 @@ The following configuration allows for authenticated access to the Squid proxy s
 		acl ncsa_users proxy_auth REQUIRED
 		http_access allow ncsa_users
 	~~~
+	
+	Be sure to put these lines at the beginning.
 
 5.  Once you've saved and exited the file, restart Squid:
 
